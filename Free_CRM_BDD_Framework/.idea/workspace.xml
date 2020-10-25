@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="695ab19a-58ca-41ad-b644-fb12ccf176e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/data/Module1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/logs/prints.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/BaseUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/DataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/DataProviderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/Listeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/SystemDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/pageObjects/LandingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/project_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/test/java/Automation/Module1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/test/java/Automation/Module2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/BaseUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/DataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/DataProviderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/Listeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/SystemDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/data/Module1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pageObjects/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/BaseUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/DataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/DataProviderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/Listeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/pageObjects/LandingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/project_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/test/java/Automation/Module1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/BaseUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/DataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/DataProviderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/Listeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/pageObjects/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-38-03_295.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-42-46_970.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-45-59_382.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-56-56_068.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T18-40-32_088.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T22-24-15_968.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/junitreports/TEST-Automation.Module1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/D__WorkSpace_MaidenFramework.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/test-classes/Automation/Module1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-38-03_295.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-42-46_970.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-45-59_382.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-56-56_068.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T18-40-32_088.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T22-24-15_968.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T22-42-51_152.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-38-37_169.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-45-36_668.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-50-58_216.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-56-28_714.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T22-33-22_031.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T22-40-38_948.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-11-49_169.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-28-58_631.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-38-01_483.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-44-23_017.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-50-27_542.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/junitreports/TEST-Automation.Module1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/D__WorkSpace_MaidenFramework.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/test-classes/Automation/Module1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaidenFramework/testng.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/properties/project_config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/LoginRunnerTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/LoginRunnerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/stepdefinitions/LoginStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/LoginRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/LoginRunnerTestng.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/features/login/deals/deals.feature" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testbase/BaseUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stepdefinitions/deals/DealsStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testbase/ExcelBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testbase/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/features/deals/deals.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/DealsRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testbase/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testbase/ExcelDataTable.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Free_CRM_BDD_Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Free_CRM_BDD_Framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Free_CRM_BDD_Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Free_CRM_BDD_Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Free_CRM_BDD_Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Free_CRM_BDD_Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Free_CRM_BDD_Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Free_CRM_BDD_Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Free_CRM_BDD_Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Free_CRM_BDD_Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="runners" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Free_CRM_BDD_Framework\src\main\java\features\login" />
+      <recent name="D:\WorkSpace\Free_CRM_BDD_Framework\src\main\java\features\deals" />
+      <recent name="D:\WorkSpace\Free_CRM_BDD_Framework\src\main\java\l" />
+      <recent name="D:\WorkSpace\Free_CRM_BDD_Framework\src\main\java" />
+      <recent name="D:\WorkSpace\Free_CRM_BDD_Framework\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml">
+    <configuration name="LoginRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Free_CRM_BDD_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.LoginRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Free_CRM_BDD_Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" />
+        <item itemvalue="JUnit.LoginRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="695ab19a-58ca-41ad-b644-fb12ccf176e7" name="Default Changelist" comment="" />
+      <created>1595181409727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595181409727</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 22m 48s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 26m 49s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 30m 21s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 30m 44s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 33m 39s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 38m 30s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 43m 41s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 47m 58s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.20 at 21h 53m 48s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__WorkSpace_Free_CRM_BDD_Framework_testng_xml - 2020.07.21 at 14h 27m 33s.xml">
+      <configuration name="D:/WorkSpace/Free_CRM_BDD_Framework/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57119477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42880523" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/stepdefinitions/deals/DealsStepDefinition.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/properties/project_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/LoginRunnerTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/LoginRunnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/LoginRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="7" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/features/login/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="178" column="23" lean-forward="true" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/LoginRunnerTestng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepdefinitions/login/LoginStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DealsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testbase/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="42" column="90" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testbase/ExcelBuilder.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1335#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testbase/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testbase/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testbase/ExcelDataTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/DealsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/features/deals/deals.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepdefinitions/deals/DealsStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

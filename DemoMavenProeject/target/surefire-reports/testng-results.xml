@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Samaritan.Rudra" duration-ms="22628" started-at="2019-12-21T23:30:10 IST" finished-at="2019-12-21T23:30:32 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="22628" started-at="2019-12-21T23:30:10 IST" finished-at="2019-12-21T23:30:32 IST">
+      <class name="Samaritan.Rudra">
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:Samaritan.Rudra@5e5792a0]" name="openGoogle" duration-ms="22493" started-at="2019-12-21T23:30:10 IST" finished-at="2019-12-21T23:30:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+      </class> <!-- Samaritan.Rudra -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Samaritan.Rudra -->
+</testng-results>

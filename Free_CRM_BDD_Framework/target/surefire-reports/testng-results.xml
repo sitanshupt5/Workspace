@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="52646" started-at="2020-07-20T14:21:31 IST" finished-at="2020-07-20T14:22:24 IST">
+    <groups>
+      <group name="Cucumber">
+        <method signature="LoginRunnerTestng.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.LoginRunnerTestng@7e0b0338]" name="feature" class="runners.LoginRunnerTestng"/>
+      </group> <!-- Cucumber -->
+    </groups>
+    <test name="D:/WorkSpace/Free_CRM_BDD_Framework" duration-ms="52646" started-at="2020-07-20T14:21:31 IST" finished-at="2020-07-20T14:22:24 IST">
+      <class name="runners.LoginRunnerTestng">
+        <test-method status="PASS" signature="setUPClass()[pri:0, instance:runners.LoginRunnerTestng@7e0b0338]" name="setUPClass" is-config="true" duration-ms="416" started-at="2020-07-20T14:21:31 IST" finished-at="2020-07-20T14:21:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.LoginRunnerTestng@7e0b0338]" name="feature" duration-ms="51926" started-at="2020-07-20T14:21:32 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-20T14:22:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Login Tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runners.LoginRunnerTestng@7e0b0338]" name="tearDown" is-config="true" duration-ms="119" started-at="2020-07-20T14:22:23 IST" finished-at="2020-07-20T14:22:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runners.LoginRunnerTestng -->
+    </test> <!-- D:/WorkSpace/Free_CRM_BDD_Framework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

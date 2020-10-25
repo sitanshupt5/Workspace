@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="4">
+    <test name="Module1">
+        <classes>
+            <class name="selenium.Module1">
+                <methods>
+                    <include name="Opengoogle"/>
+                    <include name="autoSuggestive"/>
+                    <include name="limitingScope"/>
+                    <include name="mouseActions"/>
+                    <include name="takeScreenshot"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

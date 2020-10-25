@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="number1" value="5"></parameter>
+    <parameter name="number2" value="4"></parameter>
+    
+    <listeners>
+        <listener class-name="beginner.Listener"></listener>
+    </listeners>
+    <test name="Beginner">
+
+        <classes>
+            <class name="beginner.Operations1"/>
+
+
+            <class name="beginner.Operations2"/>
+
+
+            <class name="beginner.Operations3"/>
+
+
+            <class name="beginner.StringOps1"/>
+
+
+        </classes>
+    </test>
+</suite>

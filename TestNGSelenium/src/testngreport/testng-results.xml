@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="154929" started-at="2019-06-25T16:24:24Z" finished-at="2019-06-25T16:26:59Z">
+    <groups>
+    </groups>
+    <test name="Module1" duration-ms="154929" started-at="2019-06-25T16:24:24Z" finished-at="2019-06-25T16:26:59Z">
+      <class name="selenium.Module1">
+        <test-method status="PASS" signature="mouseActions()[pri:0, instance:selenium.Module1@61a52fbd]" name="mouseActions" duration-ms="135001" started-at="2019-06-25T21:54:24Z" finished-at="2019-06-25T21:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseActions -->
+        <test-method status="PASS" signature="Opengoogle()[pri:0, instance:selenium.Module1@61a52fbd]" name="Opengoogle" duration-ms="66388" started-at="2019-06-25T21:54:24Z" finished-at="2019-06-25T21:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opengoogle -->
+        <test-method status="PASS" signature="autoSuggestive()[pri:0, instance:selenium.Module1@61a52fbd]" name="autoSuggestive" duration-ms="139735" started-at="2019-06-25T21:54:24Z" finished-at="2019-06-25T21:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSuggestive -->
+        <test-method status="PASS" signature="limitingScope()[pri:0, instance:selenium.Module1@61a52fbd]" name="limitingScope" duration-ms="154833" started-at="2019-06-25T21:54:24Z" finished-at="2019-06-25T21:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limitingScope -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:selenium.Module1@61a52fbd]" name="takeScreenshot" duration-ms="82352" started-at="2019-06-25T21:55:31Z" finished-at="2019-06-25T21:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- selenium.Module1 -->
+    </test> <!-- Module1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
