@@ -26,9 +26,9 @@ public class Walmart_Search_XML extends TestBase {
 //
 //    }
 
-    @Test(description = "extract number of items")
+    @Test(description = "Test Case1: Extract number of items from response body")
     public void getProduct1() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -38,9 +38,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "extract search query")
+    @Test(description = "Test Case2: Extract search query from response body")
     public void getProduct2() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -50,9 +50,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "extract product name")
+    @Test(description = "Test Case1: Extract name of first item from response body")
     public void getProduct3() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -62,9 +62,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "extract gift options")
+    @Test(description = "Test Case1: Extract gift options for first item from response body")
     public void getProduct4() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -75,9 +75,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "extract size of items array")
+    @Test(description = "Test Case1: Extract size items array from response body")
     public void getProduct5() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -87,9 +87,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "Name of all items")
+    @Test(description = "Test Case1: Extract name of all available items from response body")
     public void getProduct6() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -102,9 +102,9 @@ public class Walmart_Search_XML extends TestBase {
     }
 
 
-    @Test(description = "Extract all sale price values for Apple iPhone")
+    @Test(description = "Test Case1: Extract sale price value for Apple iPhone from response body")
     public void getProduct7() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);
@@ -116,9 +116,9 @@ public class Walmart_Search_XML extends TestBase {
 
     }
 
-    @Test(description = "Extract all sale price values for Apple iPhone with deep search")
+    @Test(description = "Test Case1: Extract sale price value for Apple iPhone from response body with deep search")
     public void getProduct8() {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("query", "phone");
         params.put("format", "xml");
         params.put("apiKey", api_key);

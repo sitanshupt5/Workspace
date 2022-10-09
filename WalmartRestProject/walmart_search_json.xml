@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Walmart Search JSON">
+    <test verbose="2" preserve-order="true" name="D:/Workspace/WalmartRestProject">
+        <classes>
+            <class name="walmart.Walmart_Search">
+                <methods>
+                    <include name="getProduct1"/>
+                    <include name="getProduct2"/>
+                    <include name="getProduct3"/>
+                    <include name="getProduct4"/>
+                    <include name="getProduct5"/>
+                    <include name="getProduct6"/>
+                    <include name="getProduct7"/>
+                    <include name="getProduct8"/>
+                    <include name="getProduct9"/>
+                    <include name="getProduct10"/>
+                    <include name="getProduct11"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

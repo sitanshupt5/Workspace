@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Walmart_Search_JSON">
+              <span class="suite-name border-passed">Walmart Search JSON</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Walmart_Search_JSON">
+                    <span>D:\Workspace\WalmartRestProject\walmart_search_json.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Walmart_Search_JSON">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Walmart_Search_JSON">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Walmart_Search_JSON">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Walmart_Search_JSON">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Walmart_Search_JSON">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Walmart_Search_JSON">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Walmart_Search_JSON" class="hide-methods passed suite-Walmart_Search_JSON"> (hide)</a> <!-- hide-methods passed suite-Walmart_Search_JSON -->
+                      <a href="#" panel-name="suite-Walmart_Search_JSON" class="show-methods passed suite-Walmart_Search_JSON"> (show)</a> <!-- show-methods passed suite-Walmart_Search_JSON -->
+                    </span>
+                    <div class="method-list-content passed suite-Walmart_Search_JSON">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct1">getProduct1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct10">getProduct10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct11">getProduct11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct2">getProduct2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct3">getProduct3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct4">getProduct4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct5">getProduct5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct6">getProduct6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct7">getProduct7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct8">getProduct8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_JSON" title="walmart.Walmart_Search" hash-for-method="getProduct9">getProduct9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Walmart_Search_JSON -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Walmart_Search_XML">
+              <span class="suite-name border-failed">Walmart Search XML</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Walmart_Search_XML">
+                    <span>D:\Workspace\WalmartRestProject\walmart_search_xml.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Walmart_Search_XML">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Walmart_Search_XML">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Walmart_Search_XML">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Walmart_Search_XML">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Walmart_Search_XML">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Walmart_Search_XML">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 5 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Walmart_Search_XML" class="hide-methods failed suite-Walmart_Search_XML"> (hide)</a> <!-- hide-methods failed suite-Walmart_Search_XML -->
+                      <a href="#" panel-name="suite-Walmart_Search_XML" class="show-methods failed suite-Walmart_Search_XML"> (show)</a> <!-- show-methods failed suite-Walmart_Search_XML -->
+                    </span>
+                    <div class="method-list-content failed suite-Walmart_Search_XML">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct4">getProduct4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct5">getProduct5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct6">getProduct6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct7">getProduct7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct8">getProduct8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Walmart_Search_XML -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Walmart_Search_XML" class="hide-methods passed suite-Walmart_Search_XML"> (hide)</a> <!-- hide-methods passed suite-Walmart_Search_XML -->
+                      <a href="#" panel-name="suite-Walmart_Search_XML" class="show-methods passed suite-Walmart_Search_XML"> (show)</a> <!-- show-methods passed suite-Walmart_Search_XML -->
+                    </span>
+                    <div class="method-list-content passed suite-Walmart_Search_XML">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct1">getProduct1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct2">getProduct2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Walmart_Search_XML" title="walmart.Walmart_Search_XML" hash-for-method="getProduct3">getProduct3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Walmart_Search_XML -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Walmart_Search_JSON" class="panel Walmart_Search_JSON">
+          <div class="suite-Walmart_Search_JSON-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">walmart.Walmart_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct1">
+                  </a> <!-- getProduct1 -->
+                  <span class="method-name">getProduct1</span>
+                  <em>
+(Test Case1: Extract number of items from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct10">
+                  </a> <!-- getProduct10 -->
+                  <span class="method-name">getProduct10</span>
+                  <em>
+(Test Case10: Extract msrp for all Straight Talk phone)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct11">
+                  </a> <!-- getProduct11 -->
+                  <span class="method-name">getProduct11</span>
+                  <em>
+(Test Case11: Extract msrp for Apple iPhones)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct2">
+                  </a> <!-- getProduct2 -->
+                  <span class="method-name">getProduct2</span>
+                  <em>
+(Test Case2: Extract search query from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct3">
+                  </a> <!-- getProduct3 -->
+                  <span class="method-name">getProduct3</span>
+                  <em>
+(Test Case3: Extract name of the first product from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct4">
+                  </a> <!-- getProduct4 -->
+                  <span class="method-name">getProduct4</span>
+                  <em>
+(Test Case4: Extract gift options for the first product from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct5">
+                  </a> <!-- getProduct5 -->
+                  <span class="method-name">getProduct5</span>
+                  <em>
+(Test Case5: Extract size of items array from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct6">
+                  </a> <!-- getProduct6 -->
+                  <span class="method-name">getProduct6</span>
+                  <em>
+(Test Case6: Extract name of all items from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct7">
+                  </a> <!-- getProduct7 -->
+                  <span class="method-name">getProduct7</span>
+                  <em>
+(Test Case7: Extract details for Straight Talk LG Journey Smartphone from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct8">
+                  </a> <!-- getProduct8 -->
+                  <span class="method-name">getProduct8</span>
+                  <em>
+(Test Case8: Extract all sale price values for Straight Talk LG Journey Smartphone)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct9">
+                  </a> <!-- getProduct9 -->
+                  <span class="method-name">getProduct9</span>
+                  <em>
+(Test Case9: Extract names of all products with sale price less that 100$)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_Search_JSON-class-passed -->
+        </div> <!-- panel Walmart_Search_JSON -->
+        <div panel-name="suite-Walmart_Search_XML" class="panel Walmart_Search_XML">
+          <div class="suite-Walmart_Search_XML-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">walmart.Walmart_Search_XML</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct4">
+                  </a> <!-- getProduct4 -->
+                  <span class="method-name">getProduct4</span>
+                  <div class="stack-trace">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at io.restassured.path.xml.XmlPath.getString(XmlPath.java:571)
+	at walmart.Walmart_Search_XML.getProduct4(Walmart_Search_XML.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:202)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:255)
+	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:281)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
+	... 36 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case1: Extract gift options for first item from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct5">
+                  </a> <!-- getProduct5 -->
+                  <span class="method-name">getProduct5</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at walmart.Walmart_Search_XML.getProduct5(Walmart_Search_XML.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case1: Extract size items array from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct6">
+                  </a> <!-- getProduct6 -->
+                  <span class="method-name">getProduct6</span>
+                  <div class="stack-trace">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:882)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:878)
+	at io.restassured.path.xml.XmlPath.getList(XmlPath.java:330)
+	at walmart.Walmart_Search_XML.getProduct6(Walmart_Search_XML.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:202)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:255)
+	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:281)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
+	... 38 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case1: Extract name of all available items from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct7">
+                  </a> <!-- getProduct7 -->
+                  <span class="method-name">getProduct7</span>
+                  <div class="stack-trace">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:882)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:878)
+	at io.restassured.path.xml.XmlPath.getList(XmlPath.java:330)
+	at walmart.Walmart_Search_XML.getProduct7(Walmart_Search_XML.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:202)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:255)
+	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:281)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
+	... 38 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case1: Extract sale price value for Apple iPhone from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct8">
+                  </a> <!-- getProduct8 -->
+                  <span class="method-name">getProduct8</span>
+                  <div class="stack-trace">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:882)
+	at io.restassured.path.xml.XmlPath.getAsList(XmlPath.java:878)
+	at io.restassured.path.xml.XmlPath.getList(XmlPath.java:330)
+	at walmart.Walmart_Search_XML.getProduct8(Walmart_Search_XML.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:202)
+	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:255)
+	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:281)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
+	... 38 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case1: Extract sale price value for Apple iPhone from response body with deep search)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_Search_XML-class-failed -->
+          <div class="suite-Walmart_Search_XML-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">walmart.Walmart_Search_XML</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct1">
+                  </a> <!-- getProduct1 -->
+                  <span class="method-name">getProduct1</span>
+                  <em>
+(Test Case1: Extract number of items from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct2">
+                  </a> <!-- getProduct2 -->
+                  <span class="method-name">getProduct2</span>
+                  <em>
+(Test Case2: Extract search query from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProduct3">
+                  </a> <!-- getProduct3 -->
+                  <span class="method-name">getProduct3</span>
+                  <em>
+(Test Case1: Extract name of first item from response body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_Search_XML-class-passed -->
+        </div> <!-- panel Walmart_Search_XML -->
+        <div panel-name="test-xml-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Workspace\WalmartRestProject\walmart_search_json.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Walmart Search JSON&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;D:/Workspace/WalmartRestProject&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;walmart.Walmart_Search&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getProduct1&quot;/&gt;
+          &lt;include name=&quot;getProduct2&quot;/&gt;
+          &lt;include name=&quot;getProduct3&quot;/&gt;
+          &lt;include name=&quot;getProduct4&quot;/&gt;
+          &lt;include name=&quot;getProduct5&quot;/&gt;
+          &lt;include name=&quot;getProduct6&quot;/&gt;
+          &lt;include name=&quot;getProduct7&quot;/&gt;
+          &lt;include name=&quot;getProduct8&quot;/&gt;
+          &lt;include name=&quot;getProduct9&quot;/&gt;
+          &lt;include name=&quot;getProduct10&quot;/&gt;
+          &lt;include name=&quot;getProduct11&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- walmart.Walmart_Search --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/Workspace/WalmartRestProject --&gt;
+&lt;/suite&gt; &lt;!-- Walmart Search JSON --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Workspace\WalmartRestProject\walmart_search_xml.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Walmart Search XML&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;D:/Workspace/WalmartRestProject&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;walmart.Walmart_Search_XML&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getProduct1&quot;/&gt;
+          &lt;include name=&quot;getProduct2&quot;/&gt;
+          &lt;include name=&quot;getProduct3&quot;/&gt;
+          &lt;include name=&quot;getProduct4&quot;/&gt;
+          &lt;include name=&quot;getProduct5&quot;/&gt;
+          &lt;include name=&quot;getProduct6&quot;/&gt;
+          &lt;include name=&quot;getProduct7&quot;/&gt;
+          &lt;include name=&quot;getProduct8&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- walmart.Walmart_Search_XML --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/Workspace/WalmartRestProject --&gt;
+&lt;/suite&gt; &lt;!-- Walmart Search XML --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Walmart Search JSON</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">D:/Workspace/WalmartRestProject (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Walmart Search XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">D:/Workspace/WalmartRestProject (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Walmart Search JSON</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Walmart Search XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Walmart Search JSON</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Walmart_Search_JSON');
+function tableData_Walmart_Search_JSON() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getProduct1')
+data.setCell(0, 2, 'walmart.Walmart_Search')
+data.setCell(0, 3, 5046);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getProduct7')
+data.setCell(1, 2, 'walmart.Walmart_Search')
+data.setCell(1, 3, 1241);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getProduct2')
+data.setCell(2, 2, 'walmart.Walmart_Search')
+data.setCell(2, 3, 1218);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getProduct6')
+data.setCell(3, 2, 'walmart.Walmart_Search')
+data.setCell(3, 3, 1149);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getProduct10')
+data.setCell(4, 2, 'walmart.Walmart_Search')
+data.setCell(4, 3, 1119);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getProduct3')
+data.setCell(5, 2, 'walmart.Walmart_Search')
+data.setCell(5, 3, 1114);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getProduct11')
+data.setCell(6, 2, 'walmart.Walmart_Search')
+data.setCell(6, 3, 1079);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getProduct5')
+data.setCell(7, 2, 'walmart.Walmart_Search')
+data.setCell(7, 3, 1058);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getProduct8')
+data.setCell(8, 2, 'walmart.Walmart_Search')
+data.setCell(8, 3, 1039);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getProduct4')
+data.setCell(9, 2, 'walmart.Walmart_Search')
+data.setCell(9, 3, 1036);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getProduct9')
+data.setCell(10, 2, 'walmart.Walmart_Search')
+data.setCell(10, 3, 1000);
+window.suiteTableData['Walmart_Search_JSON']= { tableData: data, tableDiv: 'times-div-Walmart_Search_JSON'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Walmart_Search_JSON">
+              </div> <!-- times-div-Walmart_Search_JSON -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Walmart Search XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Walmart_Search_XML');
+function tableData_Walmart_Search_XML() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getProduct7')
+data.setCell(0, 2, 'walmart.Walmart_Search_XML')
+data.setCell(0, 3, 1118);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getProduct3')
+data.setCell(1, 2, 'walmart.Walmart_Search_XML')
+data.setCell(1, 3, 1111);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getProduct5')
+data.setCell(2, 2, 'walmart.Walmart_Search_XML')
+data.setCell(2, 3, 1100);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getProduct2')
+data.setCell(3, 2, 'walmart.Walmart_Search_XML')
+data.setCell(3, 3, 1068);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getProduct1')
+data.setCell(4, 2, 'walmart.Walmart_Search_XML')
+data.setCell(4, 3, 1047);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getProduct4')
+data.setCell(5, 2, 'walmart.Walmart_Search_XML')
+data.setCell(5, 3, 1023);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getProduct6')
+data.setCell(6, 2, 'walmart.Walmart_Search_XML')
+data.setCell(6, 3, 958);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getProduct8')
+data.setCell(7, 2, 'walmart.Walmart_Search_XML')
+data.setCell(7, 3, 920);
+window.suiteTableData['Walmart_Search_XML']= { tableData: data, tableDiv: 'times-div-Walmart_Search_XML'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Walmart_Search_XML">
+              </div> <!-- times-div-Walmart_Search_XML -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Walmart Search JSON</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Walmart Search XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Walmart_Search_JSON" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">walmart.Walmart_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getProduct1</span>
+                <span class="method-start">1005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct2</span>
+                <span class="method-start">6165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct3</span>
+                <span class="method-start">7391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct4</span>
+                <span class="method-start">8509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct5</span>
+                <span class="method-start">9550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct6</span>
+                <span class="method-start">10613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct7</span>
+                <span class="method-start">11772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct8</span>
+                <span class="method-start">13024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct9</span>
+                <span class="method-start">14074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct10</span>
+                <span class="method-start">15078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct11</span>
+                <span class="method-start">16204 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Walmart_Search_XML" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">walmart.Walmart_Search_XML</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getProduct1</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct2</span>
+                <span class="method-start">1053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProduct3</span>
+                <span class="method-start">2125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProduct4</span>
+                <span class="method-start">3241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProduct5</span>
+                <span class="method-start">4295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProduct6</span>
+                <span class="method-start">5411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProduct7</span>
+                <span class="method-start">6375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProduct8</span>
+                <span class="method-start">7496 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

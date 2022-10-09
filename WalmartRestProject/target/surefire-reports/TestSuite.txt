@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 27.702 s <<< FAILURE! - in TestSuite
+walmart.Walmart_Search_XML.getProduct4  Time elapsed: 1.048 s  <<< FAILURE!
+io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at walmart.Walmart_Search_XML.getProduct4(Walmart_Search_XML.java:73)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at walmart.Walmart_Search_XML.getProduct4(Walmart_Search_XML.java:73)
+
+walmart.Walmart_Search_XML.getProduct5  Time elapsed: 1.099 s  <<< FAILURE!
+java.lang.NullPointerException
+	at walmart.Walmart_Search_XML.getProduct5(Walmart_Search_XML.java:86)
+
+walmart.Walmart_Search_XML.getProduct6  Time elapsed: 0.964 s  <<< FAILURE!
+io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at walmart.Walmart_Search_XML.getProduct6(Walmart_Search_XML.java:98)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at walmart.Walmart_Search_XML.getProduct6(Walmart_Search_XML.java:98)
+
+walmart.Walmart_Search_XML.getProduct7  Time elapsed: 1.121 s  <<< FAILURE!
+io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at walmart.Walmart_Search_XML.getProduct7(Walmart_Search_XML.java:113)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at walmart.Walmart_Search_XML.getProduct7(Walmart_Search_XML.java:113)
+
+walmart.Walmart_Search_XML.getProduct8  Time elapsed: 0.925 s  <<< FAILURE!
+io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at walmart.Walmart_Search_XML.getProduct8(Walmart_Search_XML.java:127)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at walmart.Walmart_Search_XML.getProduct8(Walmart_Search_XML.java:127)
+

@@ -1,5 +1,6 @@
 package walmart;
 
+import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 import utils.TestBase;
 
@@ -24,7 +25,8 @@ public class Walmart_Search extends TestBase {
 //
 //    }
 
-    @Test(description = "extract number of items")
+    @Description("Extract number of items from response body")
+    @Test(description = "Test Case1: Extract number of items from response body")
     public void getProduct1()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -37,7 +39,9 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "extract search query")
+
+    @Description("Extract search query from response body")
+    @Test(description = "Test Case2: Extract search query from response body")
     public void getProduct2()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -50,7 +54,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "extract product name")
+    @Description("Extract name of the first product from response body")
+    @Test(description = "Test Case3: Extract name of the first product from response body")
     public void getProduct3()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -63,7 +68,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "extract gift options")
+    @Description("Extract gift options for the first product from response body")
+    @Test(description = "Test Case4: Extract gift options for the first product from response body")
     public void getProduct4()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -76,7 +82,9 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "extract size of items array")
+
+    @Description("Extract size of items array from response body")
+    @Test(description = "Test Case5: Extract size of items array from response body")
     public void getProduct5()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -89,7 +97,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Name of all items")
+    @Description("Extract name of all items from response body")
+    @Test(description = "Test Case6: Extract name of all items from response body")
     public void getProduct6()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -103,7 +112,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Extract details for Straight Talk LG Journey Smartphone")
+    @Description("Extract details for Straight Talk LG Journey Smartphone from response body")
+    @Test(description = "Test Case7: Extract details for Straight Talk LG Journey Smartphone from response body")
     public void getProduct7()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -117,7 +127,9 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Extract all sale price values for Straight Talk LG Journey Smartphone")
+
+    @Description("Extract all sale price values for Straight Talk LG Journey Smartphone")
+    @Test(description = "Test Case8: Extract all sale price values for Straight Talk LG Journey Smartphone")
     public void getProduct8()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -131,7 +143,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Extract products with sale price less tha 100$")
+    @Description("Extract names of all products with sale price less that 100$")
+    @Test(description = "Test Case9: Extract names of all products with sale price less that 100$")
     public void getProduct9()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -145,7 +158,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Extract msrp for Straight Talk phone")
+    @Description("Extract msrp for all Straight Talk phone")
+    @Test(description = "Test Case10: Extract msrp for all Straight Talk phone")
     public void getProduct10()
     {
         Map<String, Object> params = new HashMap<String, Object>();
@@ -159,7 +173,8 @@ public class Walmart_Search extends TestBase {
 
     }
 
-    @Test(description = "Extract msrp for Apple iPhones")
+    @Description("Extract msrp for Apple iPhones")
+    @Test(description = "Test Case11: Extract msrp for Apple iPhones")
     public void getProduct11()
     {
         Map<String, Object> params = new HashMap<String, Object>();

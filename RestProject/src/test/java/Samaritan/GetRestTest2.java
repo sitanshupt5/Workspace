@@ -14,7 +14,7 @@ public class GetRestTest2 extends TestBase{
     public void getStudents1()
     {
         Response res = given().
-                queryParams("programme","Computer Science","limit",1).
+//                queryParams("programme","Computer Science","limit",1).
                 when().
                 get("/list");
         res.prettyPrint();

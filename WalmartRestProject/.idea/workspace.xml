@@ -1,167 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2c515450-6e9d-4031-a2b4-77a46afdbaf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/data/Module1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/logs/prints.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/BaseUtilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/DataFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/DataProviderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/ExcelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/Listeners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/Utitlities/SystemDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/pageObjects/LandingPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/project_config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/test/java/Automation/Module1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/src/test/java/Automation/Module2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/BaseUtilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/DataFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/DataProviderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/ExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/Utitlities/SystemDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/data/Module1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pageObjects/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/BaseUtilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/DataFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/DataProviderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/ExcelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/Utitlities/Listeners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/pageObjects/LandingPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/project_config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/src/test/java/Automation/Module1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/BaseUtilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/DataFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/DataProviderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/ExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/Utitlities/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/pageObjects/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-38-03_295.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-42-46_970.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-45-59_382.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T17-56-56_068.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T18-40-32_088.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/2019-12-26T22-24-15_968.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/QA_Click_All/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/junitreports/TEST-Automation.Module1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/D__WorkSpace_MaidenFramework.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/QA_Click_All/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/target/test-classes/Automation/Module1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/classes/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-38-03_295.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-42-46_970.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-45-59_382.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T17-56-56_068.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T18-40-32_088.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T22-24-15_968.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T22-42-51_152.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-38-37_169.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-45-36_668.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-50-58_216.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-26T23-56-28_714.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T22-33-22_031.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T22-40-38_948.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-03-08_550.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-27T23-11-49_169.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-28-58_631.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-38-01_483.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-44-23_017.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/2019-12-28T00-50-27_542.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/D__WorkSpace_MaidenFramework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/QA_Click_All/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/junitreports/TEST-Automation.Module1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/D__WorkSpace_MaidenFramework.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/QA_Click_All/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/target/test-classes/Automation/Module1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaidenFramework/testng.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ButtonFX/ButtonFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_Coding/src/com/revolver/Question8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paypal_Payment_Service/Paypal_Payment_Service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestFormAuthentication/RestFormAuthentication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwitterApiTesting/TwitterApiTesting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartJunitFramework/WhitePhoenixRestFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_3_0_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_artifact_transfer_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_spi_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_shared_utils_3_0_0_M4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/MicrosoftWebDriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/MicrosoftWebDriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/msedgedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/PostRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/PostRestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/classes/META-INF/RestProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/classes/Samaritan/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/classes/Samaritan/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/PostRestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/PostRestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNGTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNGTutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WalmartRestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WalmartRestProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search_XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/walmart/Walmart_Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/walmart/Walmart_Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/walmart/Walmart_Search_XML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/walmart/Walmart_Search_XML.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,9 +100,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,21 +116,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/walmart_config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search.java" />
-        <option value="$PROJECT_DIR$/src/test/java/walmart/Walmart_Search_XML.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -283,42 +205,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1jNKCDdOYP3pi40zvcNcc06goOu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\WalmartRestProject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\WalmartRestProject\src\main\resources\properties" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="TestNG.Walmart_Search_XML">
     <configuration name="Walmart_Search" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -381,6 +292,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -391,155 +303,64 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598718224409</updated>
+      <workItem from="1654671542467" duration="786000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 19h 51m 31s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 01m 48s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 02m 51s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 17m 02s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 19m 54s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 22m 59s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 28m 49s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 31m 13s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 31m 40s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Walmart_Search_XML - 2020.09.12 at 21h 33m 49s.xml">
-      <configuration name="Walmart_Search_XML" configurationId="TestNG" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="173" y="0" key="#Project_Structure" timestamp="1603639749187">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="173" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1603639749187" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603694459775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603694459775" />
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1603697257488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603697257488" />
+    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1603697257488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603697257488" />
+    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1603697257488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603697257488" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1603697257488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603697257488" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1604857250192">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604857250192" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/TestBase.java</url>
-          <line>20</line>
-          <properties />
+          <line>19</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Test.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/walmart_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar!/io/restassured/internal/path/json/ConfigurableJsonSlurper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/walmart/Walmart_Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="169" column="100" selection-start-line="169" selection-start-column="88" selection-end-line="169" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/walmart/Walmart_Search_XML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="126" column="54" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

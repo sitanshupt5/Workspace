@@ -27,6 +27,7 @@ public class GetRestTest {
     public void getMethod2() {
         RestAssured.baseURI = "https://reqres.in";
         Response response = given().queryParam("page", 2)
+                .proxy(5555)
                 .when().get("/api/users")
                 .then().assertThat().statusCode(200)
                 .extract().response();

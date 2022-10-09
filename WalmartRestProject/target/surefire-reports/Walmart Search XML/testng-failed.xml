@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Walmart Search XML]">
+  <test thread-count="5" verbose="0" name="D:/Workspace/WalmartRestProject(failed)">
+    <classes>
+      <class name="walmart.Walmart_Search_XML">
+        <methods>
+          <include name="init"/>
+          <include name="getProduct4"/>
+          <include name="getProduct7"/>
+          <include name="getProduct8"/>
+          <include name="getProduct5"/>
+          <include name="getProduct6"/>
+        </methods>
+      </class> <!-- walmart.Walmart_Search_XML -->
+    </classes>
+  </test> <!-- D:/Workspace/WalmartRestProject(failed) -->
+</suite> <!-- Failed suite [Walmart Search XML] -->

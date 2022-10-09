@@ -55,6 +55,7 @@ public class PostRestTest extends TestBase{
                 body(student).
                 post().
                 then().
+                log().all(true).
                 statusCode(201).extract().response();
         response.prettyPrint();
     }

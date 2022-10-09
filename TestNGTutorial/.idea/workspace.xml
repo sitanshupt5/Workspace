@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d2d70af-92fd-48c0-8512-5e12ae85ceab" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2d2d70af-92fd-48c0-8512-5e12ae85ceab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ButtonFX/ButtonFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paypal_Payment_Service/Paypal_Payment_Service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestFormAuthentication/RestFormAuthentication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwitterApiTesting/TwitterApiTesting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartJunitFramework/WhitePhoenixRestFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_maven_toolchain_3_0_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_shared_maven_artifact_transfer_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_spi_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_maven_surefire_surefire_shared_utils_3_0_0_M4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_ow2_asm_asm_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/MicrosoftWebDriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/MicrosoftWebDriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Free_CRM_BDD_Framework/src/main/resources/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Flipkart/src/main/java/resources/msedgedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/GetRestTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/PostRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/src/test/java/Samaritan/PostRestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/classes/META-INF/RestProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/classes/Samaritan/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/classes/Samaritan/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/GetRestTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/PostRestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestProject/target/test-classes/Samaritan/PostRestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/WalmartRestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/WalmartRestProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/src/main/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/src/main/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/src/test/java/walmart/Walmart_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/src/test/java/walmart/Walmart_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/src/test/java/walmart/Walmart_Search_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/src/test/java/walmart/Walmart_Search_XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/target/classes/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/target/classes/utils/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/target/test-classes/walmart/Walmart_Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/target/test-classes/walmart/Walmart_Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartRestProject/target/test-classes/walmart/Walmart_Search_XML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartRestProject/target/test-classes/walmart/Walmart_Search_XML.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,9 +74,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -22,25 +81,8 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/testsuite/TestcaseDemo.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/beginner/Operations2.java" />
-        <option value="$PROJECT_DIR$/src/beginner/Operations1.java" />
-        <option value="$PROJECT_DIR$/src/beginner/Operations3.java" />
-        <option value="$PROJECT_DIR$/src/beginner/Listener.java" />
-        <option value="$PROJECT_DIR$/testng1.xml" />
-        <option value="$PROJECT_DIR$/src/beginner/ArithematicOperations.java" />
-        <option value="$PROJECT_DIR$/src/beginner/StringOperations.java" />
-        <option value="$PROJECT_DIR$/src/beginner/StringOps1.java" />
-        <option value="$PROJECT_DIR$/globalparameters.properties" />
-        <option value="$PROJECT_DIR$/src/selenium/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/selenium/Module1.java" />
-        <option value="$PROJECT_DIR$/src/selenium/Listener.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -48,59 +90,26 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestNGTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNGTutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestNGTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNGTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestNGTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNGTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1vlOu5eylUOsnSBjLeqPYcUEqhs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-java-3.141.59/selenium-server-standalone-3.141.59.jar!/" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="TestNG.Module1">
     <configuration name="D:/WorkSpace/TestNGTutorial/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -201,6 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560964362154</updated>
+      <workItem from="1627133430255" duration="7000" />
     </task>
     <servers />
   </component>
@@ -235,143 +245,6 @@
     <history-entry file="Module1 - 2019.12.20 at 20h 36m 33s.xml">
       <configuration name="Module1" configurationId="TestNG" />
     </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testsuite/TestcaseDemo.java" />
-    <entry file="file://$PROJECT_DIR$/testng.xml" />
-    <entry file="file://$PROJECT_DIR$/src/beginner/Operations2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/Operations3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/ArithematicOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/StringOps1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/StringOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/selenium/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globalparameters.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginner/Operations1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/selenium/Module1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/selenium/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
